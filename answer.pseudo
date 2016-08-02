@@ -1,0 +1,11 @@
+#!/usr/bin/python
+import random # importing random package
+
+def challenge():
+	name=raw_input("Enter a your name: ") # take name as a input
+	num = random.randrange(7,14) # genrating ramdom number and storing it into num
+	print "Name GeneratedNumber: ",name,random.randrange(7,14) # print the name with random number
+	print "Thank you."
+
+
+challenge(); # calling function
